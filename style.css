@@ -65,14 +65,10 @@ body {
     height: 150px;
     background-color: var(--light-red);
     border: 3px solid var(--primary-red);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--primary-red);
-    font-weight: bold;
-    font-size: 0.9rem;
     /* Square shape as requested */
     border-radius: 4px;
+    object-fit: cover;
+    display: block;
 }
 
 .profile-info h1 {
